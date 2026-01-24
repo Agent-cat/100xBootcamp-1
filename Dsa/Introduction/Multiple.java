@@ -43,6 +43,16 @@ Yes
 
 
  */
+
+import java.util.Scanner;
+
 public class Multiple {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int F = sc.nextInt();
+        System.out.println((F % N == 0) ? "Yes" : "No");
+        sc.close();
+    }
 
 }
