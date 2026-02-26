@@ -4,8 +4,8 @@ public class N_Pallindrom {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int N = sc.nextInt();
-        int original = N;
+        long N = sc.nextInt();
+        long original = N;
 
         long reverse = 0;
         while (N != 0) {

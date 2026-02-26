@@ -4,11 +4,11 @@ public class K_Reverse {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Long N = sc.nextLong();
-        while (N != 0) {
-            System.out.print(N % 10);
-            N = N / 10;
-        }
+        String N = sc.next();
+        StringBuilder rev = new StringBuilder(N);
+        rev.reverse();
+        System.out.println(rev.toString());
         sc.close();
     }
+
 }
