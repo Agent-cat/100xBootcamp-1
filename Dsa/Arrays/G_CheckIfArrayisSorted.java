@@ -19,6 +19,7 @@ public class G_CheckIfArrayisSorted {
             int curr = sc.nextInt();
             if (prev > curr) {
                 System.out.println("NO");
+                sc.close();
                 return;
             }
             prev = curr;
