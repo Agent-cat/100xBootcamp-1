@@ -16,5 +16,6 @@ public class L_MissingNumber {
             }
             System.out.println(a);
         }
+        sc.close();
     }
 }

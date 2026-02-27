@@ -5,11 +5,11 @@ import java.util.*;
 public class G_CheckIfArrayisSorted {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         int n = sc.nextInt();
 
         if (n <= 1) {
             System.out.println("YES");
+            sc.close();
             return;
         }
 
@@ -23,6 +23,7 @@ public class G_CheckIfArrayisSorted {
             }
             prev = curr;
         }
+        sc.close();
 
         System.out.println("YES");
     }

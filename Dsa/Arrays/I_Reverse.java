@@ -27,6 +27,6 @@ public class I_Reverse {
         for (int j2 = 0; j2 < arr.length; j2++) {
             System.out.print(arr[j2] + " ");
         }
-
+        sc.close();
     }
 }
