@@ -1,7 +1,5 @@
 package DynamicPrograming;
 
-import java.util.*;
-
 class Climbing {
     // Function to count total ways to reach nth stair
     public static int climbStairs(int n, int[] arr) {
@@ -27,10 +25,9 @@ class Climbing {
     public static void main(String[] args) {
         int n = 3;
 
-        Climbing sol = new Climbing();
         int arr[] = new int[n + 1];
 
         // Print the answer
-        System.out.println("The total number of ways: " + sol.climbStairs(n, arr));
+        System.out.println("The total number of ways: " + climbStairs(n, arr));
     }
 }
